@@ -1,0 +1,143 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.6	//
+FAILE_STATE	tcp_thread_server.c	13;"	d	file:
+FAILE_STATE	temp/tcp_thread_server.c	13;"	d	file:
+PROTOCOL_HEAD_SIZE	protocol.c	11;"	d	file:
+SUCCESS_STATE	tcp_thread_server.c	12;"	d	file:
+SUCCESS_STATE	temp/tcp_thread_server.c	12;"	d	file:
+USER_CHANGE	handler_client.h	7;"	d
+USER_CHANGE	temp/handler_client.h	7;"	d
+USER_GET_PASSWORD	handler_client.h	6;"	d
+USER_GET_PASSWORD	temp/handler_client.h	6;"	d
+USER_LOGIN	handler_client.h	5;"	d
+USER_LOGIN	temp/handler_client.h	5;"	d
+USER_REGISTER	handler_client.h	4;"	d
+USER_REGISTER	temp/handler_client.h	4;"	d
+_DOCTOR_HEAD_H	doctor.h	2;"	d
+_HANDLER_CLIENT_HEAD_	handler_client.h	2;"	d
+_HANDLER_CLIENT_HEAD_	temp/handler_client.h	2;"	d
+_USER_HEAD_H	user.h	2;"	d
+__anon1::brief_introduce	doctor.h	/^	char *brief_introduce;$/;"	m	struct:__anon1	access:public
+__anon1::education	doctor.h	/^	char *education;$/;"	m	struct:__anon1	access:public
+__anon1::id	doctor.h	/^	char *id;$/;"	m	struct:__anon1	access:public
+__anon1::major	doctor.h	/^	char *major;$/;"	m	struct:__anon1	access:public
+__anon1::name	doctor.h	/^	char *name;$/;"	m	struct:__anon1	access:public
+__anon1::password	doctor.h	/^	char *password;$/;"	m	struct:__anon1	access:public
+__anon1::telphone	doctor.h	/^	char *telphone;$/;"	m	struct:__anon1	access:public
+__anon1::username	doctor.h	/^	char *username;$/;"	m	struct:__anon1	access:public
+__anon1::work_time	doctor.h	/^	char *work_time;$/;"	m	struct:__anon1	access:public
+__anon2::ncolumn	doctor.h	/^	int  ncolumn;$/;"	m	struct:__anon2	access:public
+__anon2::nrow	doctor.h	/^	int  nrow;$/;"	m	struct:__anon2	access:public
+__anon2::result	doctor.h	/^	char **result;$/;"	m	struct:__anon2	access:public
+__anon3::id	user.h	/^	char *id;$/;"	m	struct:__anon3	access:public
+__anon3::name	user.h	/^	char *name;$/;"	m	struct:__anon3	access:public
+__anon3::password	user.h	/^	char *password;$/;"	m	struct:__anon3	access:public
+__anon3::telphone	user.h	/^	char *telphone;$/;"	m	struct:__anon3	access:public
+__anon3::username	user.h	/^	char *username;$/;"	m	struct:__anon3	access:public
+add_doctor_register_information	doctor.c	/^void  add_doctor_register_information(json_object *object,char *filed_name,char **address)$/;"	f	signature:(json_object *object,char *filed_name,char **address)
+add_doctor_register_picture	doctor.c	/^void  add_doctor_register_picture(json_object *object,char *filed_name,char *filename)$/;"	f	signature:(json_object *object,char *filed_name,char *filename)
+add_new_register_doctor	db_doctor.c	/^int add_new_register_doctor(doctor_register_t *doctor_register)$/;"	f	signature:(doctor_register_t *doctor_register)
+add_new_register_user	db.c	/^int add_new_register_user(user_register_t *user_register)$/;"	f	signature:(user_register_t *user_register)
+add_new_register_user	temp/db.c	/^int add_new_register_user(user_register_t *user_register)$/;"	f	signature:(user_register_t *user_register)
+add_user_register_information	temp/user.c	/^void  add_user_register_information(json_object *object,char *filed_name,char **address)$/;"	f	signature:(json_object *object,char *filed_name,char **address)
+add_user_register_information	user.c	/^void  add_user_register_information(json_object *object,char *filed_name,char **address)$/;"	f	signature:(json_object *object,char *filed_name,char **address)
+base64_to_picture	doctor.c	/^void base64_to_picture(const char *base64_data,const char *filename)$/;"	f	signature:(const char *base64_data,const char *filename)
+brief_introduce	doctor.h	/^	char *brief_introduce;$/;"	m	struct:__anon1	access:public
+change_password_userid	db.c	/^int change_password_userid(user_register_t *user_register)$/;"	f	signature:(user_register_t *user_register)
+change_password_userid	temp/db.c	/^int change_password_userid(const char *password,const char *userid)$/;"	f	signature:(const char *password,const char *userid)
+change_register_user	handler_client.c	/^int change_register_user(user_register_t *user_register)int change_register_user(user_register_t *user_register)$/;"	f	signature:(user_register_t *user_register)
+change_register_user	temp/db.c	/^int change_register_user(user_register_t *user_register)$/;"	f	signature:(user_register_t *user_register)
+check_doctor_register	db_doctor.c	/^int check_doctor_register(doctor_register_t *doctor_register)$/;"	f	signature:(doctor_register_t *doctor_register)
+check_user_register	db.c	/^int check_user_register(user_register_t *user_register)$/;"	f	signature:(user_register_t *user_register)
+check_user_register	temp/db.c	/^int check_user_register(user_register_t *user_register)$/;"	f	signature:(user_register_t *user_register)
+client_request_handler	tcp_thread_server.c	/^handler_client_t client_request_handler[] = {$/;"	v
+client_request_handler	temp/tcp_thread_server.c	/^handler_client_t client_request_handler[] = {$/;"	v
+create_client_json_object	handler_client.c	/^json_object *create_client_json_object(int function_id,int state)$/;"	f	signature:(int function_id,int state)
+create_client_json_object	temp/handler_client.c	/^json_object *create_client_json_object(int function_id,int state)$/;"	f	signature:(int function_id,int state)
+destory_client_json_object	handler_client.c	/^void destory_client_json_object(json_object *client_object)$/;"	f	signature:(json_object *client_object)
+destory_client_json_object	temp/handler_client.c	/^void destory_client_json_object(json_object *client_object)$/;"	f	signature:(json_object *client_object)
+do_client	tcp_thread_server.c	/^void *do_client(void *arg)$/;"	f	signature:(void *arg)
+do_client	temp/tcp_thread_server.c	/^void *do_client(void *arg)$/;"	f	signature:(void *arg)
+doctor_get_password	doctor.c	/^int doctor_get_password(json_object *object,char **password)$/;"	f	signature:(json_object *object,char **password)
+doctor_information_table_t	doctor.h	/^}doctor_information_table_t;$/;"	t	typeref:struct:__anon2
+doctor_login	doctor.c	/^int doctor_login(json_object *object)$/;"	f	signature:(json_object *object)
+doctor_register	doctor.c	/^int doctor_register(json_object *object)$/;"	f	signature:(json_object *object)
+doctor_register_t	doctor.h	/^}doctor_register_t;$/;"	t	typeref:struct:__anon1
+doctor_thread_lock	db_doctor.c	/^static pthread_mutex_t doctor_thread_lock = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+education	doctor.h	/^	char *education;$/;"	m	struct:__anon1	access:public
+free_doctor_register	doctor.c	/^void free_doctor_register(doctor_register_t *doctor_register)$/;"	f	signature:(doctor_register_t *doctor_register)
+free_protocol_data	protocol.c	/^void free_protocol_data(char *addr)$/;"	f	signature:(char *addr)
+free_user_register	temp/user.c	/^void free_user_register(user_register_t *user_register)$/;"	f	signature:(user_register_t *user_register)
+free_user_register	user.c	/^void free_user_register(user_register_t *user_register)$/;"	f	signature:(user_register_t *user_register)
+get_all_doctor_information	db_doctor.c	/^doctor_information_table_t get_all_doctor_information(void)$/;"	f	signature:(void)
+handler_client_t	tcp_thread_server.c	/^typedef void (*handler_client_t)(int sockfd,json_object *object);\/\/handler_client_t function pointer type$/;"	t	file:
+handler_client_t	temp/tcp_thread_server.c	/^typedef void (*handler_client_t)(int sockfd,json_object *object);\/\/handler_client_t function pointer type$/;"	t	file:
+handler_user_change	handler_client.c	/^void handler_user_change(int client_fd, json_object *object)$/;"	f	signature:(int client_fd, json_object *object)
+handler_user_change	handler_client.h	/^extern void handler_user_change(int client_fd, json_object *object);$/;"	p	signature:(int client_fd, json_object *object)
+handler_user_change	temp/handler_client.c	/^void handler_user_change(int client_fd,json_object *object)$/;"	f	signature:(int client_fd,json_object *object)
+handler_user_change	temp/handler_client.h	/^extern void handler_user_change(int client_fd, json_object *object);$/;"	p	signature:(int client_fd, json_object *object)
+handler_user_get_password	handler_client.c	/^void handler_user_get_password(int client_fd,json_object *object)$/;"	f	signature:(int client_fd,json_object *object)
+handler_user_get_password	handler_client.h	/^extern void handler_user_get_password(int client_fd,json_object *object);$/;"	p	signature:(int client_fd,json_object *object)
+handler_user_get_password	temp/handler_client.c	/^void handler_user_get_password(int client_fd,json_object *object)$/;"	f	signature:(int client_fd,json_object *object)
+handler_user_get_password	temp/handler_client.h	/^extern void handler_user_get_password(int client_fd,json_object *object);$/;"	p	signature:(int client_fd,json_object *object)
+handler_user_login	handler_client.c	/^void handler_user_login(int client_fd,json_object *object)$/;"	f	signature:(int client_fd,json_object *object)
+handler_user_login	handler_client.h	/^extern void handler_user_login(int client_fd,json_object *object);$/;"	p	signature:(int client_fd,json_object *object)
+handler_user_login	temp/handler_client.c	/^void handler_user_login(int client_fd,json_object *object)$/;"	f	signature:(int client_fd,json_object *object)
+handler_user_login	temp/handler_client.h	/^extern void handler_user_login(int client_fd,json_object *object);$/;"	p	signature:(int client_fd,json_object *object)
+handler_user_register	handler_client.c	/^void handler_user_register(int client_fd,json_object *object)$/;"	f	signature:(int client_fd,json_object *object)
+handler_user_register	handler_client.h	/^extern void handler_user_register(int client_fd,json_object *object);$/;"	p	signature:(int client_fd,json_object *object)
+handler_user_register	temp/handler_client.c	/^void handler_user_register(int client_fd,json_object *object)$/;"	f	signature:(int client_fd,json_object *object)
+handler_user_register	temp/handler_client.h	/^extern void handler_user_register(int client_fd,json_object *object);$/;"	p	signature:(int client_fd,json_object *object)
+id	doctor.h	/^	char *id;$/;"	m	struct:__anon1	access:public
+id	user.h	/^	char *id;$/;"	m	struct:__anon3	access:public
+main	tcp_client.c	/^int main(void)$/;"	f	signature:(void)
+main	tcp_thread_server.c	/^int main(void)$/;"	f	signature:(void)
+main	temp/tcp_thread_server.c	/^int main(void)$/;"	f	signature:(void)
+major	doctor.h	/^	char *major;$/;"	m	struct:__anon1	access:public
+name	doctor.h	/^	char *name;$/;"	m	struct:__anon1	access:public
+name	user.h	/^	char *name;$/;"	m	struct:__anon3	access:public
+ncolumn	doctor.h	/^	int  ncolumn;$/;"	m	struct:__anon2	access:public
+nrow	doctor.h	/^	int  nrow;$/;"	m	struct:__anon2	access:public
+parse_json_data	tcp_thread_server.c	/^void parse_json_data(int client_fd,const char *json_string)$/;"	f	signature:(int client_fd,const char *json_string)
+parse_json_data	temp/tcp_thread_server.c	/^void parse_json_data(int client_fd,const char *json_string)$/;"	f	signature:(int client_fd,const char *json_string)
+passowrd	handler_client.c	/^	char *default_sql = "update user_info set passowrd = ?  \\t",doctor_table->result[index ++]);= 0;i < doctor_table->nrow;i ++)((here id = ?";$/;"	v
+password	doctor.h	/^	char *password;$/;"	m	struct:__anon1	access:public
+password	user.h	/^	char *password;$/;"	m	struct:__anon3	access:public
+recv_protocol_data	protocol.c	/^char *recv_protocol_data(int sockfd)$/;"	f	signature:(int sockfd)
+recv_protocol_head	protocol.c	/^int recv_protocol_head(int sockfd)$/;"	f	signature:(int sockfd)
+reply_client_result	handler_client.c	/^void reply_client_result(int client_fd,json_object *object)$/;"	f	signature:(int client_fd,json_object *object)
+reply_client_result	temp/handler_client.c	/^void reply_client_result(int client_fd,json_object *object)$/;"	f	signature:(int client_fd,json_object *object)
+result	doctor.h	/^	char **result;$/;"	m	struct:__anon2	access:public
+telphone	doctor.h	/^	char *telphone;$/;"	m	struct:__anon1	access:public
+telphone	user.h	/^	char *telphone;$/;"	m	struct:__anon3	access:public
+thread_lock	db.c	/^pthread_mutex_t thread_lock = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+thread_lock	temp/db.c	/^pthread_mutex_t thread_lock = PTHREAD_MUTEX_INITIALIZER;$/;"	v
+user_change	temp/user.c	/^int user_change(json_object *object)$/;"	f	signature:(json_object *object)
+user_change	user.c	/^int user_change(json_object *object){$/;"	f	signature:(json_object *object)
+user_get_password	temp/user.c	/^int user_get_password(json_object *object,char **password)$/;"	f	signature:(json_object *object,char **password)
+user_get_password	user.c	/^int user_get_password(json_object *object,char **password)$/;"	f	signature:(json_object *object,char **password)
+user_get_password_id	temp/user.c	/^int user_get_password_id(json_object *object)$/;"	f	signature:(json_object *object)
+user_login	temp/user.c	/^int user_login(json_object *object)$/;"	f	signature:(json_object *object)
+user_login	user.c	/^int user_login(json_object *object)$/;"	f	signature:(json_object *object)
+user_register	temp/user.c	/^int user_register(json_object *object)$/;"	f	signature:(json_object *object)
+user_register	user.c	/^int user_register(json_object *object)$/;"	f	signature:(json_object *object)
+user_register_t	user.h	/^}user_register_t;$/;"	t	typeref:struct:__anon3
+username	doctor.h	/^	char *username;$/;"	m	struct:__anon1	access:public
+username	user.h	/^	char *username;$/;"	m	struct:__anon3	access:public
+verify_doctor_filed	db_doctor.c	/^int verify_doctor_filed(const char *filed_name,const char *filed_value)$/;"	f	signature:(const char *filed_name,const char *filed_value)
+verify_doctor_login	db_doctor.c	/^int verify_doctor_login(const char *username,const char *password)$/;"	f	signature:(const char *username,const char *password)
+verify_doctor_register	db_doctor.c	/^int verify_doctor_register(doctor_register_t *doctor_register)$/;"	f	signature:(doctor_register_t *doctor_register)
+verify_telphone_doctorid	db_doctor.c	/^int verify_telphone_doctorid(const char *telphone,const char *doctorid,char **password)$/;"	f	signature:(const char *telphone,const char *doctorid,char **password)
+verify_telphone_userid	db.c	/^int verify_telphone_userid(const char *telphone,const char *userid,char **password)$/;"	f	signature:(const char *telphone,const char *userid,char **password)
+verify_telphone_userid	temp/db.c	/^int verify_telphone_userid(const char *telphone,const char *userid,char **password)$/;"	f	signature:(const char *telphone,const char *userid,char **password)
+verify_user_filed	db.c	/^int verify_user_filed(const char *filed_name,const char *filed_value)$/;"	f	signature:(const char *filed_name,const char *filed_value)
+verify_user_filed	temp/db.c	/^int verify_user_filed(const char *filed_name,const char *filed_value)$/;"	f	signature:(const char *filed_name,const char *filed_value)
+verify_user_register	db.c	/^int verify_user_register(user_register_t *user_register)$/;"	f	signature:(user_register_t *user_register)
+verify_user_register	temp/db.c	/^int verify_user_register(user_register_t *user_register)$/;"	f	signature:(user_register_t *user_register)
+verify_username_password	db.c	/^int verify_username_password(const char *username,const char *password)$/;"	f	signature:(const char *username,const char *password)
+verify_username_password	temp/db.c	/^int verify_username_password(const char *username,const char *password)$/;"	f	signature:(const char *username,const char *password)
+work_time	doctor.h	/^	char *work_time;$/;"	m	struct:__anon1	access:public
