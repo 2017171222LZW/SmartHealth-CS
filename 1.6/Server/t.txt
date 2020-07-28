@@ -1,0 +1,36 @@
+void handler_doctor_id_information_get(int client_fd,json_object *object)
+{
+	int state = 0;
+	json_object *id_object;
+	json_object *client_object;
+	const char *id = NULL;
+	doctor_information_table_t doctor_table;
+	extern doctor_information_table_t get_doctor_id_information(const char *id);
+
+	id_object = json_object_object_get(object,"doctor_id");
+	if(id_object == NULL){
+		printf("The json object no such doctor_id filed!\n");
+		return;
+	}
+
+	id = json_object_get_string(id_object);
+
+	doctor_table = get_doctor_id_information(id);
+	if(!doctor_table.nrow){
+		state = 1;			
+	}
+
+	client_object = create_client_json_object(DOCTOR_ID_INFORMATION_GET,state);
+	if(client_object){
+		if(doctor_table.nrow){
+			add_doctor_infomation(client_object,&doctor_table);
+			add_doctor_picture_information(client_object,id); 
+		}
+		reply_client_result(client_fd,client_object);
+		destory_client_json_object(client_object);
+	}
+
+	free_doctor_table(&doctor_table);
+
+	return;
+}

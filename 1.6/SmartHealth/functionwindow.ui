@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>FunctionWindow</class>
+ <widget class="QMainWindow" name="FunctionWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>548</width>
+    <height>414</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>70</y>
+      <width>214</width>
+      <height>260</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="dataButton">
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+QPushButton{
+                   background-color:rgba(220,220,220,200);
+                   border-style:outset;                                                             
+                   border-radius:5px;                     
+                   font: 75 15pt &quot;华文行楷&quot;;           
+                   padding:6px;
+                   }
+
+                   QPushButton:pressed{
+                   background-color:rgba(100,100,100,180);
+                   border-color:rgba(100,100,100,30);
+                   border-style:inset;
+                   }
+                   QPushButton:hover{
+                   background-color:rgba(100,255,100,150);
+                   border-color:rgba(255,255,255,200);
+}
+</string>
+       </property>
+       <property name="text">
+        <string>人体特征数据采集</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="Line" name="line">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="Login_2">
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+QPushButton{
+                   background-color:rgba(220,220,220,200);
+                   border-style:outset;                                                             
+                   border-radius:5px;                     
+                   font: 75 15pt &quot;华文行楷&quot;;           
+                   padding:6px;
+                   }
+
+                   QPushButton:pressed{
+                   background-color:rgba(100,100,100,180);
+                   border-color:rgba(100,100,100,30);
+                   border-style:inset;
+                   }
+                   QPushButton:hover{
+                   background-color:rgba(100,255,100,150);
+                   border-color:rgba(255,255,255,200);
+}
+</string>
+       </property>
+       <property name="text">
+        <string>体征数据查看</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="Line" name="line_2">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="Login_3">
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+QPushButton{
+                   background-color:rgba(220,220,220,200);
+                   border-style:outset;                                                             
+                   border-radius:5px;                     
+                   font: 75 15pt &quot;华文行楷&quot;;           
+                   padding:6px;
+                   }
+
+                   QPushButton:pressed{
+                   background-color:rgba(100,100,100,180);
+                   border-color:rgba(100,100,100,30);
+                   border-style:inset;
+                   }
+                   QPushButton:hover{
+                   background-color:rgba(100,255,100,150);
+                   border-color:rgba(255,255,255,200);
+}
+</string>
+       </property>
+       <property name="text">
+        <string>预约医生</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="Line" name="line_3">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="Login_5">
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+QPushButton{
+                   background-color:rgba(220,220,220,200);
+                   border-style:outset;                                                             
+                   border-radius:5px;                     
+                   font: 75 15pt &quot;华文行楷&quot;;           
+                   padding:6px;
+                   }
+
+                   QPushButton:pressed{
+                   background-color:rgba(100,100,100,180);
+                   border-color:rgba(100,100,100,30);
+                   border-style:inset;
+                   }
+                   QPushButton:hover{
+                   background-color:rgba(100,255,100,150);
+                   border-color:rgba(255,255,255,200);
+}
+</string>
+       </property>
+       <property name="text">
+        <string>在线询诊</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="Line" name="line_4">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="Login_4">
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">
+QPushButton{
+                   background-color:rgba(220,220,220,200);
+                   border-style:outset;                                                             
+                   border-radius:5px;                     
+                   font: 75 15pt &quot;华文行楷&quot;;           
+                   padding:6px;
+                   }
+
+                   QPushButton:pressed{
+                   background-color:rgba(100,100,100,180);
+                   border-color:rgba(100,100,100,30);
+                   border-style:inset;
+                   }
+                   QPushButton:hover{
+                   background-color:rgba(100,255,100,150);
+                   border-color:rgba(255,255,255,200);
+}
+</string>
+       </property>
+       <property name="text">
+        <string>扩展项</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QPushButton" name="Exit">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>330</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton{
+                   background-color:rgba(220,220,220,120);
+                   border-style:outset;                                                             
+                   border-radius:5px;                     
+                   font: 75 15pt &quot;华文行楷&quot;;           
+                   padding:6px;
+                   }
+
+                   QPushButton:pressed{
+                   background-color:rgba(100,100,100,180);
+                   border-color:rgba(100,100,100,30);
+                   border-style:inset;
+                   }
+                   QPushButton:hover{
+                   background-color:rgba(100,255,100,100);
+                   border-color:rgba(255,255,255,200);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Exit</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Logout">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>330</y>
+      <width>151</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton{
+                   background-color:rgba(220,220,220,120);
+                   border-style:outset;                                                             
+                   border-radius:5px;                     
+                   font: 75 15pt &quot;华文行楷&quot;;           
+                   padding:6px;
+                   }
+
+                   QPushButton:pressed{
+                   background-color:rgba(100,100,100,180);
+                   border-color:rgba(100,100,100,30);
+                   border-style:inset;
+                   }
+                   QPushButton:hover{
+                   background-color:rgba(100,255,100,100);
+                   border-color:rgba(255,255,255,200);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>LogOut</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>548</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
