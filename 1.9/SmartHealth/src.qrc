@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/bg01.jpg</file>
+        <file>img/bg02.jpg</file>
+        <file>img/bg03.jpg</file>
+        <file>qss/btnStyle.qss</file>
+        <file>qss/scroller.qss</file>
+        <file>img/icon.png</file>
+        <file>img/bg04.jpg</file>
+        <file>img/pdx.jpg</file>
+        <file>log/log.txt</file>
+        <file>img/bg05.jpg</file>
+        <file>img/icon2.jpg</file>
+        <file>img/defualt.jpg</file>
+        <file>img/bg06.jpg</file>
+        <file>img/bg07.jpg</file>
+        <file>img/Customer Copy.png</file>
+        <file>img/CustomerService.png</file>
+        <file>img/loading4.gif</file>
+    </qresource>
+</RCC>

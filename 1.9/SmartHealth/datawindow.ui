@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DataWindow</class>
+ <widget class="QMainWindow" name="DataWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLineEdit" name="bloodGluseLineEdit">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>150</y>
+      <width>211</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color : rgb(240,240,240);
+color : rgb(0,0,0);
+border-color: : transparent;</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="commitPushButton">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>410</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton{
+                   background-color:rgba(220,220,220,120);
+                   border-style:outset;                                                             
+                   border-radius:5px;                     
+                   font: 75 15pt &quot;华文行楷&quot;;           
+                   padding:6px;
+                   }
+
+                   QPushButton:pressed{
+                   background-color:rgba(100,100,100,180);
+                   border-color:rgba(100,100,100,30);
+                   border-style:inset;
+                   }
+                   QPushButton:hover{
+                   background-color:rgba(100,255,100,100);
+                   border-color:rgba(255,255,255,200);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>提交</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="bloodOxygenLineEdit">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>200</y>
+      <width>211</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color : rgb(240,240,240);
+color : rgb(0,0,0);
+border-color: : transparent;
+</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="temperatureLineEdit">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>80</y>
+      <width>211</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color : rgb(240,240,240);
+color : rgb(0,0,0);
+border-color: : transparent;
+</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="backBtn">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>410</y>
+      <width>121</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton{
+                   background-color:rgba(220,220,220,120);
+                   border-style:outset;                                                             
+                   border-radius:5px;                     
+                   font: 75 15pt &quot;华文行楷&quot;;           
+                   padding:6px;
+                   }
+
+                   QPushButton:pressed{
+                   background-color:rgba(100,100,100,180);
+                   border-color:rgba(100,100,100,30);
+                   border-style:inset;
+                   }
+                   QPushButton:hover{
+                   background-color:rgba(100,255,100,100);
+                   border-color:rgba(255,255,255,200);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>返回</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="bloodPresureLineEdit">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>320</y>
+      <width>211</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color : rgb(240,240,240);
+color : rgb(0,0,0);
+border-color: : transparent;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="heartRateLineEdit">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>260</y>
+      <width>211</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color : rgb(240,240,240);
+color : rgb(0,0,0);
+border-color: : transparent;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>70</y>
+      <width>101</width>
+      <height>291</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLabel" name="label">
+       <property name="styleSheet">
+        <string notr="true">font: 75 15pt &quot;华文行楷&quot;;
+color : rgb(0,0,0);</string>
+       </property>
+       <property name="text">
+        <string>温度 :</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_2">
+       <property name="styleSheet">
+        <string notr="true">font: 75 15pt &quot;华文行楷&quot;;
+color : rgb(0,0,0);</string>
+       </property>
+       <property name="text">
+        <string>血糖 :</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_3">
+       <property name="styleSheet">
+        <string notr="true">font: 75 15pt &quot;华文行楷&quot;;
+color : rgb(0,0,0);</string>
+       </property>
+       <property name="text">
+        <string>血氧 :</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_4">
+       <property name="styleSheet">
+        <string notr="true">font: 75 15pt &quot;华文行楷&quot;;
+color : rgb(0,0,0);</string>
+       </property>
+       <property name="text">
+        <string>心率：</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="label_5">
+       <property name="styleSheet">
+        <string notr="true">font: 75 15pt &quot;华文行楷&quot;;
+color : rgb(0,0,0);</string>
+       </property>
+       <property name="text">
+        <string>血压：</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

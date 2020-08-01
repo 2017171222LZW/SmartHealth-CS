@@ -1,0 +1,6 @@
+{
+    "UserName":"test01",
+    "PassWord":"1234",
+    "RemenberPsd":true,
+    "AutomaticLogin":false
+}
